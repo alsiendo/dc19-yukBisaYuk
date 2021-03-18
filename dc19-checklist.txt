@@ -1,0 +1,20 @@
+Checklist yang harus dikerjakan :
+- Membuat asset character (Sketch-Finishing)
+- Membuat sound effect dan BGM
+- Kinematic Terbang
+  > Atas
+  > Bawah
+- Kinematic Menembak
+  > Virus
+  > MC
+  > Score bertambah
+- Kinematic Lifepoint
+  > Pengurangan nyawa
+- Penempatan Object
+- Coalission
+- Kinematic menghindar (Optional)
+- Adjusting bgm dan sfx
+- Animation
+  > Opening
+  > Menu
+  > Game Over + Scoring
