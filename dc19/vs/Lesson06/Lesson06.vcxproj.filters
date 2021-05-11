@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Assets">
+      <UniqueIdentifier>{04ed3955-456f-49df-ae8e-8849e05cc1b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Assets\BG">
+      <UniqueIdentifier>{c3ca48b1-3a09-4b1a-b0e3-11066f7e39ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Assets\MC">
+      <UniqueIdentifier>{0a148b8c-72a9-4d2a-9c56-b9c432569e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Assets\Virus">
+      <UniqueIdentifier>{b91e4ef6-6c02-49b4-b0f1-a7b7034b0b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Assets\Health">
+      <UniqueIdentifier>{1528a9f4-6772-4a94-b763-6d68df24a1a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="homeranim.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="crate.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\BG\bg.png">
+      <Filter>Resource Files\Assets\BG</Filter>
+    </Image>
+    <Image Include="Assets\MC\atk.png">
+      <Filter>Resource Files\Assets\MC</Filter>
+    </Image>
+    <Image Include="Assets\Health\empty.png">
+      <Filter>Resource Files\Assets\Health</Filter>
+    </Image>
+    <Image Include="Assets\MC\fDown.png">
+      <Filter>Resource Files\Assets\MC</Filter>
+    </Image>
+    <Image Include="Assets\Health\full.png">
+      <Filter>Resource Files\Assets\Health</Filter>
+    </Image>
+    <Image Include="Assets\MC\fUp.png">
+      <Filter>Resource Files\Assets\MC</Filter>
+    </Image>
+    <Image Include="Assets\MC\hurt.png">
+      <Filter>Resource Files\Assets\MC</Filter>
+    </Image>
+    <Image Include="Assets\MC\idle.png">
+      <Filter>Resource Files\Assets\MC</Filter>
+    </Image>
+    <Image Include="Assets\Health\minus1.png">
+      <Filter>Resource Files\Assets\Health</Filter>
+    </Image>
+    <Image Include="Assets\Virus\vAtk.png">
+      <Filter>Resource Files\Assets\Virus</Filter>
+    </Image>
+    <Image Include="Assets\Virus\vIdle.png">
+      <Filter>Resource Files\Assets\Virus</Filter>
+    </Image>
+    <Image Include="Assets\Health\minus2.png">
+      <Filter>Resource Files\Assets\Health</Filter>
+    </Image>
+    <Image Include="Assets\beam1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\beam2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\BG\cropBG.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opsigame\hint.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opsigame\over.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opsigame\play1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opsigame\play2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opsigame\quit1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opsigame\quit2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opsigame\restart1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opsigame\restart2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Opsigame\title.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\BG\endBG.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\BG\startBG.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="playerSprite.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="playerSprite.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="crateSprite.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="crateSprite.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bensound-funkyelement.ogg" />
+    <None Include="shader.frag" />
+    <None Include="shader.vert" />
+    <None Include="Sounds\bgm.ogg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Demo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Lesson06-Collision.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="bgmjapan.mp3" />
+    <Media Include="Sounds\bgm.mp3" />
+    <Media Include="Sounds\gameOver.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Sounds\hurt.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Sounds\mcAtk.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Sounds\option.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Sounds\terbang.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Sounds\turun.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Sounds\virusAtk.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Sounds\winGame.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

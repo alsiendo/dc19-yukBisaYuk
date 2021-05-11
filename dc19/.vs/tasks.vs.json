@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Pemrograman_Gim",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}
